@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+
+
+    <link rel="stylesheet" type="text/css" href="skill-catagory.css">
+
+    <title>Get Work </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                    <a href="#" class="nav-item nav-link">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum!</h3>
+        <div class="search_box">
+            <!-- <h2>Data List</h2> -->
+            <form action="/action_page.php" method="get">
+                <label for="pro-lang" class="form-label">Search or Add upto 3 skills:</label>
+                <div class="data-input custom-search">
+                <input class="form-control custom-search-input" type="text" placeholder="Search" list="pro-lang" name="pro-lang"
+                    id="pro_lang"><span onclick="newElement()" class="addBtn">Add</span>
+                 </div>   
+
+                <datalist id="pro-lang">
+                    <option value="Html/CSS">
+                    <option value="Javascript">
+                    <option value="Java">
+                    <option value="Php">
+                    <option value=".Net">
+                    <option value="Angular">
+                    <option value="React">
+                    <option value="Python">
+                    <option value="C#">
+                    <option value="C++">
+                </datalist>
+            </form>
+        </div>
+
+        <div class="adde-skill">
+            <h6>Added Skills:</h6>
+            <ul id="myUL">
+                <li class="ad-skill">Bootstrap</li>
+            </ul>    
+        </div>
+
+        <div class="skill-btn mt-3 mb-2">
+            <h6>Created List</h6>
+            <button type="button" class="btn rounded-pill btn-outline-light text-dark">HTML/CSS +</button>
+            <button type="button" class="btn rounded-pill btn-outline-light text-dark">Java</button>
+            <button type="button" class="btn rounded-pill btn-outline-light text-dark">C++</button>
+            <button type="button" class="btn rounded-pill btn-outline-light text-dark">Javascript</button>
+            <button type="button" class="btn rounded-pill btn-outline-light text-dark">Python</button>
+        </div>
+
+        <div class="location">
+            <h6>Set Location</h6>
+            <div class="set-location">
+                <form action="/action_page.php">
+                    <label for="location">Choose a location:</label>
+                    <select id="location" class="form-control" name="location">
+                        <option class="text-center" value="" selected disabled>--Select--</option>
+                        <option value="volvo">Pune</option>
+                        <option value="saab">Mumbai</option>
+                        <option value="fiat">Banglore</option>
+                        <option value="audi">Delhi</option>
+                        <option value="volvo">Aurangabad</option>
+                        <option value="saab">Nashik</option>
+                        <option value="fiat">Jaipur</option>
+                        <option value="audi">Kolkata</option>
+                    </select><br><br>
+                </form>
+            </div>
+        </div>
+
+        <div class="level">
+            <div class="sel-level">
+                <h6>Select Your Level:</h6>
+                <form action="/action_page.php">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Entry</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Intermediate</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Expert</label><br><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+      </footer>
+<div class="main-container">
+    <div class="container pg">
+        <div class="pg-no">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container profiles">
+        <article class="all-profiles">
+            <!-- profile-1 -->
+            <article class="profiles">
+                <div class="card c-1">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="fl-img">
+                                <img class="rounded-circle" src="Images/pro-img.jpg" alt="fl-image" />
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="fl-details">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                                <h6>profile Title</h6>
+                            </div>
+                            <div class="ratings">
+                                <h6>4.8 <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="hire-btn">
+                                <button type="button" class="btn btn-outline-primary">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-9">
+                            <div class="skills">
+                                <!-- Carousel -->
+                                <div id="demo" class="carousel slide">
+                                    <!-- The slideshow/carousel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Html/CSS</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Bootstrap</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Angular</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Javascript</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Left and right controls/icons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                        data-bs-slide="prev">
+                                        <span class="prev-icon"><img src="Images/left-arrow.png"
+                                                alt="left-arrow" /></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                        data-bs-slide="next">
+                                        <span class="next-icon"><img src="Images/right-arrow.png"
+                                                alt="right-arrow" /></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+
+            <!-- profile-2 -->
+            <article class="profiles">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="fl-img">
+                                <img class="rounded-circle" src="Images/pro-img.jpg" alt="fl-image" />
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="fl-details">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                                <h6>profile Title</h6>
+                            </div>
+                            <div class="ratings">
+                                <h6>4.8 <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="hire-btn">
+                                <button type="button" class="btn btn-outline-primary">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-9">
+                            <div class="skills">
+                                <!-- Carousel -->
+                                <div id="demo" class="carousel slide">
+                                    <!-- The slideshow/carousel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Html/CSS</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Bootstrap</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Angular</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Javascript</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Left and right controls/icons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                        data-bs-slide="prev">
+                                        <span class="prev-icon"><img src="Images/left-arrow.png"
+                                                alt="left-arrow" /></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                        data-bs-slide="next">
+                                        <span class="next-icon"><img src="Images/right-arrow.png"
+                                                alt="right-arrow" /></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+
+            <!-- profile-3 -->
+            <article class="profiles">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="fl-img">
+                                <img class="rounded-circle" src="Images/pro-img.jpg" alt="fl-image" />
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="fl-details">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                                <h6>profile Title</h6>
+                            </div>
+                            <div class="ratings">
+                                <h6>4.8 <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="hire-btn">
+                                <button type="button" class="btn btn-outline-primary">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-9">
+                            <div class="skills">
+                                <!-- Carousel -->
+                                <div id="demo" class="carousel slide">
+                                    <!-- The slideshow/carousel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Html/CSS</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Bootstrap</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Angular</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Javascript</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Left and right controls/icons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                        data-bs-slide="prev">
+                                        <span class="prev-icon"><img src="Images/left-arrow.png"
+                                                alt="left-arrow" /></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                        data-bs-slide="next">
+                                        <span class="next-icon"><img src="Images/right-arrow.png"
+                                                alt="right-arrow" /></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+
+            <article class="profiles">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="fl-img">
+                                <img class="rounded-circle" src="Images/pro-img.jpg" alt="fl-image" />
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="fl-details">
+                                <h6>Lorem ipsum dolor sit amet.</h6>
+                                <h6>profile Title</h6>
+                            </div>
+                            <div class="ratings">
+                                <h6>4.8 <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="hire-btn">
+                                <button type="button" class="btn btn-outline-primary">Hire Me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-9">
+                            <div class="skills">
+                                <!-- Carousel -->
+                                <div id="demo" class="carousel slide">
+                                    <!-- The slideshow/carousel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Html/CSS</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Bootstrap</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <span class="badge rounded-pill btn-outline-light text-dark">React</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">.Net</span>
+                                            <span class="badge rounded-pill btn-outline-light text-dark">Angular</span>
+                                            <span
+                                                class="badge rounded-pill btn-outline-light text-dark">Javascript</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Left and right controls/icons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                        data-bs-slide="prev">
+                                        <span class="prev-icon"><img src="Images/left-arrow.png"
+                                                alt="left-arrow" /></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                        data-bs-slide="next">
+                                        <span class="next-icon"><img src="Images/right-arrow.png"
+                                                alt="right-arrow" /></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+        </article>
+    </div>
+    </div>
+
+<script>
+
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByClassName("ad-skill");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("pro_lang").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("pro_lang").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+</script>
+    
+</body>
+
+
+</html>
